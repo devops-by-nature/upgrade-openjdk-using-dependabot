@@ -1,4 +1,4 @@
-FROM eclipse-temurin:21.0.1_12-jdk-jammy
+FROM eclipse-temurin:21.0.10_7-jdk-jammy
 
 RUN apt-get update \
     && apt-get --yes install autossh \
